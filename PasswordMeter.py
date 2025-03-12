@@ -7,8 +7,8 @@ st.markdown("""
  <style>
   .main{text-align:center;}
   .stTextInput{width:60% important!;margin:auto;}
-  .stButton button{width:50%; bacground-color:linear-gradient(90deg, #FF6F61, #FFA726);color:white;font-size:18px;}
-  .stButton button:hover{background-color:linear-gradient(90deg, #E65100, #FF8F00);}
+  .stButton button{width:50%; bacground-color:#007BFF;color:white;font-size:18px;}
+  .stButton button:hover{background-color:#0056b3;}
   </style>
 
    """,unsafe_allow_html=True
