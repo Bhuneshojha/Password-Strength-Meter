@@ -7,7 +7,7 @@ st.markdown("""
  <style>
   .main{text-align:center;}
   .stTextInput{width:60% important!;margin:auto;}
-  .stButton button{width:50%; bacground-color:#4CAF50;color:white;font-size:18px;}
+  .stButton button{width:50%; bacground-color:#4CAFD43;font-size:18px;}
   .stButton button:hover{background-color:#45a349;}
   </style>
 
