@@ -14,7 +14,7 @@ st.markdown("""
    """,unsafe_allow_html=True
 )
 st.title("Password Safety Analyzer 🛡️")
-st.write("Enter your password to chec its Safety 🕵️‍♂️")
+st.write("Enter your password to check its Safety 🕵️‍♂️")
 
 def check_password(password):
     score = 0
@@ -51,7 +51,7 @@ def check_password(password):
         with st.expander("Improve your password 🔑"):
             for issue in feedback:
                 st.write(issue)
-password = input("Enter your password:",type="password",help="Ensure password is Strong and Secure 🔐")
+password = st.text_input("Enter your password:",type="password",help="Ensure password is Strong and Secure 🔐")
 
 if st.button("Check Password"):
     if password:
