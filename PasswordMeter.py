@@ -33,7 +33,7 @@ def check_password(password):
         score +=1
     else:
         feedback.append("❌ Ensure your password contains at least one numeric character")
-    if re.search(r"[!@#$%^&]",password):
+    if re.search(r"[!@#$%^&.?/]",password):
         score +=1
     else:
         feedback.append("❌ Password should contain at least one special character")
