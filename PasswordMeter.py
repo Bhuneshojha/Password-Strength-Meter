@@ -29,7 +29,7 @@ def check_password(password):
         score +=1
     else:
         feedback.append("❌ Password should contain both uppercase and lowercase letters")
-    if re.search(r"/d",password):
+    if re.search(r"\d",password):
         score +=1
     else:
         feedback.append("❌ Ensure your password contains at least one numeric character")
