@@ -1,8 +1,7 @@
 import re
 import streamlit as st
 
-st.set_page_config(page_tittle="Password Safety Analyzer with Bhunesh Ojha")
-
+st.set_page_config(page_title="Password Safety Analyzer with Bhunesh Ojha", )
 
 st.markdown("""
  <style>
